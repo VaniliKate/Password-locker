@@ -1,6 +1,6 @@
 import unittest #imports unittest module
 from user import User #imports the User class
-import pyperclip
+
 
 class TestUser (unittest.TestCase):
 
@@ -61,7 +61,7 @@ def test_delete_user_details(self):
     self.new_user.delete_user_details()  #deletes user details
     self.assertEqual(len(User.user_accounts),1)
 
-def test_display_all_accounts(self):
+def test_display_all_users(self):
         '''
         method that returns a list of all accounts saved
         '''
@@ -105,6 +105,8 @@ def display_accounts(cls):
         
 
 
+    
+    
 if __name__ == '__main__':
     unittest.main()
 

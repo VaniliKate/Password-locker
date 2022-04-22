@@ -28,4 +28,14 @@ class Credentials:
 
         Credentials.credentials_list.remove(self)
 
+    @classmethod
+    def display_accounts(cls):
+
+        '''
+            method expected to display the list of accounts
+        '''
+
+        return cls.credentials_list
+
+
        
