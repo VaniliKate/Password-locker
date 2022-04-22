@@ -10,3 +10,7 @@ class User:
         self.password = password
 
     def save_account_details(self):
+
+        '''
+        save_contact method saves contact objects into contact_list
+        '''
