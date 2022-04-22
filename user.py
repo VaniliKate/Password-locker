@@ -1,6 +1,6 @@
 class User:
     """
-    Class that generates new instances of contacts.
+    Class that generates new instances of accounts.
     """
     
     user_accounts = []
@@ -12,11 +12,15 @@ class User:
     def save_account_details(self):
 
         '''
-        save_contact method saves contact objects into contact_list
+        save_account_details method saves account details inserted by the user.
         '''
 
         User.user_accounts.append(self)
 
     def delete_account_details(self):
 
-        
+        '''
+        delete_account_details method deletes the account details selected
+        '''
+
+        User.delete_account_details.remove(self)
