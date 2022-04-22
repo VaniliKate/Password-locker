@@ -24,3 +24,7 @@ class User:
         '''
 
         User.delete_account_details.remove(self)
+
+    @classmethod
+    def display_accounts(cls):
+        
