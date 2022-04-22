@@ -61,6 +61,22 @@ def test_delete_user_details(self):
     self.new_user.delete_user_details()  #deletes user details
     self.assertEqual(len(User.user_accounts),1)
 
+def test_display_all_accounts(self):
+        '''
+        method that returns a list of all accounts saved
+        '''
+
+        self.assertEqual(User.display_accounts(),User.user_accounts)
+
+@classmethod
+def display_accounts(cls):
+
+        '''
+            display_accounts method will display account details when called
+        '''
+
+        return cls.user_accounts
+
 #def test_find_account_by_username(self):
     #'''
         #test to check if we can find an account by username and display information
