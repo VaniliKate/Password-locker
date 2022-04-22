@@ -27,4 +27,9 @@ class User:
 
     @classmethod
     def display_accounts(cls):
-        
+
+        '''
+            display_accounts method will display account details when called
+        '''
+
+        return cls.user_accounts
