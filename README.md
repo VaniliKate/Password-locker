@@ -47,7 +47,7 @@ No known bugs
 This project is Licensed under MIT.
 ©2022 Copyright.
 
-## [License] (https://github.com/VaniliKate/Password-locker/blob/master/LICENSE)
+## [License](https://github.com/VaniliKate/Password-locker/blob/master/LICENSE)
 
 ### Collaborate
 
