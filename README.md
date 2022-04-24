@@ -42,12 +42,10 @@ This application is developed using [python3.8](https://www.python.org)
 
 No known bugs
 
-### License
+## [License](https://github.com/VaniliKate/Password-locker/blob/master/LICENSE)
 
 This project is Licensed under MIT.
 ©2022 Copyright.
-
-## [License](https://github.com/VaniliKate/Password-locker/blob/master/LICENSE)
 
 ### Collaborate
 
