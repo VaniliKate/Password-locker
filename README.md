@@ -28,8 +28,8 @@ This application is developed using [python3.8](https://www.python.org)
 
 ### BDD
 
-| Behaviour                                          | input | output |
-| -------------------------------------------------- | :---: | ------ |
+| Operation                                          | input |
+| -------------------------------------------------- | :---: |
 | Create a new password locker account               |  cc   |
 | Log in into your created account                   |  lg   |
 | Exit your password locker account                  |  ex   |
