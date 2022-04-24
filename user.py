@@ -1,35 +1,27 @@
 class User:
-    """
-    Class that generates new instances of accounts.
-    """
-
-    user_accounts = []
+    '''
+    Class that generates new instances of users.
+    '''
+     
+    users_list = []
 
     def __init__(self, username, password):
+
+        '''
+        __init__ method helps define our objects properties
+
+        Args:
+            username: login's username for a new user
+            password: login:s password for a new user
+        '''
+
         self.username = username
         self.password = password
 
-    def save_user_details(self):
-        '''
-        save_user_details method saves account details inserted by the user.
-        '''
-
-        User.user_accounts.append(self)
-
-    def delete_user_details(self):
-        '''
-        delete_user_details method deletes the account details selected
-        '''
-
-        User.user_accounts.remove(self)
-
-    @classmethod
-    def display_accounts(cls):
+    def save_user(self):
 
         '''
-            display_accounts method will display account details when called
+        Method used to save user objects into the users list
         '''
 
-        return cls.user_accounts
-
-    
+        User.users_list.append(self)
