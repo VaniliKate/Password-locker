@@ -6,14 +6,13 @@ class Credentials:
 
     credentials_list = []
 
-    def __init__(self,account_name,account_email,account_password):
+    def __init__(self, account_name, account_email, account_password):
 
         self.account_name = account_name
         self.account_email = account_email
         self.account_password = account_password
 
     def save_account_credentials(self):
-
         '''
             method saves inputted credentials
         '''
@@ -21,7 +20,6 @@ class Credentials:
         Credentials.credentials_list.append(self)
 
     def delete_account_credentials(self):
-
         '''
             method deletes selected credentials
         '''
@@ -30,12 +28,8 @@ class Credentials:
 
     @classmethod
     def display_accounts(cls):
-
         '''
             method expected to display the list of accounts
         '''
 
         return cls.credentials_list
-
-
-       
